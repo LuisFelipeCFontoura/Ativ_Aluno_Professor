@@ -113,7 +113,7 @@ public class Professor extends Pessoa {
        
        desconto = (ir - 9*salario)/100;
        liquido = salario - desconto;
-       System.out.println("Valor do salário com desconto do INSS: " + this.getLiquido());
+       System.out.println("Valor do salário Líquido: " + this.getLiquido());
     }
     
    
